@@ -135,7 +135,7 @@ const App = (props) => {
               {route}
 
             </Switch>
-            <Footer />
+            {/* <Footer /> */}
           </Router>
         </main>
         {loading}
