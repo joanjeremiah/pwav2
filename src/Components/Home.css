@@ -1,0 +1,23 @@
+a{
+    background: lightblue;
+    padding: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.login-register{
+    list-style-type: none;
+    color: white !important;
+    padding: .7rem;
+    width: fit-content;
+        /* background: red; */
+        background: rgb(44,210,245);
+        background: linear-gradient(313deg, rgba(44,210,245,1) 0%, rgba(117,82,245,1) 72%);
+    margin: 1rem auto;
+    border-radius: .4rem;
+    transform: translateY(-20%);
+}
+
+.login-register > a{
+    color: white;
+}

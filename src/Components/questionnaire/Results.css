@@ -1,0 +1,28 @@
+.results-container .result-chart{
+    display: grid;
+    place-items: center;
+}
+
+.results-container .result-chart{
+    margin: auto;
+}
+
+._1YOWG,._1dpop{
+    margin: -2rem 0;
+}
+
+.sv-title.sv-question__title{
+    font-size: 1.7rem;
+    text-align: left;
+}
+
+.sv-footer__complete-btn{
+    float: left;
+}
+
+@media only screen and (max-width: 400px){
+    .sv-title.sv-question__title{
+        font-size: 1.3rem;
+        text-align: left;
+    }
+}

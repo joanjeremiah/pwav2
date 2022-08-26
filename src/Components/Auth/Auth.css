@@ -1,0 +1,56 @@
+.container-short{
+    margin: 0 auto;
+    float: none;
+    max-width: 750px!important;
+}
+
+label{
+    font-weight: bold;
+}
+
+.mar-20{
+    margin-top:15%
+}
+.error h4{
+    color: red;
+}
+
+.error h5{
+    color:red;
+}
+
+.auth-container{
+    height: 100vh;
+    width: 100% !important;
+    padding: 0 5rem;
+    /* display: grid; */
+    place-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* margin: 7rem 0 4rem 0; */
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+    
+}
+
+.auth-container #card-title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.auth-container input{
+    width: 100%;
+}
+
+/* @media only screen and (max-width: 700px){
+    .auth-container{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .auth-container{
+        width: 75vw !important;
+    }
+} */
